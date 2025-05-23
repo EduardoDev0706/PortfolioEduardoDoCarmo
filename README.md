@@ -15,3 +15,7 @@ Este é um projeto de portfólio pessoal desenvolvido com foco em simplicidade, 
 - HTML5
 - CSS3 (com variáveis e responsividade)
 - JavaScript (para alternar o tema)
+
+## Projetos
+
+- Agenda Eletrônica com C# + Avalonia (Interface Gráfica)
