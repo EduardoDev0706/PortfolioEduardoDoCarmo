@@ -1,0 +1,41 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="https://github.com/avaloniaui"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:viewmodels="clr-namespace:AgendaEletronica.ViewModels"
+        mc:Ignorable="d"
+        x:Class="AgendaEletronica.Views.MainWindow"
+        Width="400" Height="600"
+        Title="Agenda Eletrônica">
+  
+    <Window.DataContext>
+        <viewmodels:MainWindowViewModel />
+    </Window.DataContext>
+
+    <StackPanel Margin="20" Spacing="10">
+
+        <TextBlock Text="Título:" />
+        <TextBox Text="{Binding Titulo}" />
+
+        <TextBlock Text="Descrição:" />
+        <TextBox Text="{Binding Descricao}" />
+
+        <TextBlock Text="Data:" />
+        <DatePicker SelectedDate="{Binding Data}" />
+
+        <Button Content="Adicionar" Command="{Binding AdicionarCommand}" />
+
+        <ListBox Items="{Binding Compromissos}">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal" Spacing="10">
+                        <TextBlock Text="{Binding Titulo}" />
+                        <Button Content="Remover" 
+                                Command="{Binding DataContext.RemoverCommand, RelativeSource={RelativeSource AncestorType=Window}}" />
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+
+    </StackPanel>
+</Window>

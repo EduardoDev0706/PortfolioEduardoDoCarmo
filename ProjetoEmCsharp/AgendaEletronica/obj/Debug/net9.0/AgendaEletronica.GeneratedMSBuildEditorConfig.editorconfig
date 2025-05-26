@@ -24,5 +24,5 @@ build_property.EnableCodeStyleSeverity =
 [/home/eduardo/Programacao/PortfolioWeb/ProjetoEmCsharp/AgendaEletronica/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[/home/eduardo/Programacao/PortfolioWeb/ProjetoEmCsharp/AgendaEletronica/MainWindow.axaml]
+[/home/eduardo/Programacao/PortfolioWeb/ProjetoEmCsharp/AgendaEletronica/Views/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
