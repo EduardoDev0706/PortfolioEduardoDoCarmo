@@ -17,6 +17,10 @@
   body.dark .certificado:hover {
     background-color: rgba(255, 255, 255, 0.05);
   }
+
+  body.dark .card-idioma:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+  }
   
   * {
     margin: 0;
@@ -162,6 +166,33 @@
   .btn-link:hover {
     background-color: var(--accent-color);
     color: white;
+  }
+
+  #idiomas {
+    margin-bottom: 3rem;
+  }
+
+  .card-idioma {
+    border: 1px solid var(--border-color);
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    transition: background 0.3s, transform 0.2s;
+  }
+
+  .card-idioma:hover {
+    background-color: rgba(0, 0, 0, 0.03);
+    transform: scale(1.01);
+  }
+
+  .card-idioma h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.4rem;
+    color: var(--text-color);
+  }
+
+  .card-idioma p {
+    color: var(--text-color);
   }
   
   
