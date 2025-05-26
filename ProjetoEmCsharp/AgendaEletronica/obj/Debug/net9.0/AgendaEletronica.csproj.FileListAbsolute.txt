@@ -65,6 +65,3 @@
 /home/eduardo/Programacao/PortfolioWeb/ProjetoEmCsharp/AgendaEletronica/obj/Debug/net9.0/AgendaEl.0B06B692.Up2Date
 /home/eduardo/Programacao/PortfolioWeb/ProjetoEmCsharp/AgendaEletronica/obj/Debug/net9.0/AgendaEletronica.genruntimeconfig.cache
 /home/eduardo/Programacao/PortfolioWeb/ProjetoEmCsharp/AgendaEletronica/obj/Debug/net9.0/ref/AgendaEletronica.dll
-/home/eduardo/Programacao/PortfolioWeb/ProjetoEmCsharp/AgendaEletronica/obj/Debug/net9.0/AgendaEletronica.dll
-/home/eduardo/Programacao/PortfolioWeb/ProjetoEmCsharp/AgendaEletronica/obj/Debug/net9.0/refint/AgendaEletronica.dll
-/home/eduardo/Programacao/PortfolioWeb/ProjetoEmCsharp/AgendaEletronica/obj/Debug/net9.0/AgendaEletronica.pdb
