@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AgendaEletronica")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ee2f08dc74f74275f875fec251f7e98edae7f3f1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+008345956049b40f63db9cc8cd6a356f59c12abd")]
 [assembly: System.Reflection.AssemblyProductAttribute("AgendaEletronica")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AgendaEletronica")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
