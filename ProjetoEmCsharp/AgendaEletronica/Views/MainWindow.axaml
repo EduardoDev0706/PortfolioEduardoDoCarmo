@@ -1,37 +1,35 @@
 <Window xmlns="https://github.com/avaloniaui"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:d="https://github.com/avaloniaui"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:viewmodels="clr-namespace:AgendaEletronica.ViewModels"
-        mc:Ignorable="d"
         x:Class="AgendaEletronica.Views.MainWindow"
-        Width="400" Height="600"
-        Title="Agenda Eletrônica">
-  
+        mc:Ignorable="d"
+        Title="Agenda Eletrônica" Width="600" Height="400">
+
     <Window.DataContext>
         <viewmodels:MainWindowViewModel />
     </Window.DataContext>
 
-    <StackPanel Margin="20" Spacing="10">
+    <StackPanel Margin="10" Spacing="8">
 
-        <TextBlock Text="Título:" />
-        <TextBox Text="{Binding Titulo}" />
-
-        <TextBlock Text="Descrição:" />
-        <TextBox Text="{Binding Descricao}" />
-
-        <TextBlock Text="Data:" />
-        <DatePicker SelectedDate="{Binding Data}" />
+        <!-- Entradas para adicionar compromisso -->
+        <TextBox Watermark="Título" Text="{Binding Titulo, Mode=TwoWay}" />
+        <TextBox Watermark="Descrição" Text="{Binding Descricao, Mode=TwoWay}" />
+        <DatePicker SelectedDate="{Binding Data, Mode=TwoWay}" />
 
         <Button Content="Adicionar" Command="{Binding AdicionarCommand}" />
 
+        <!-- Lista de compromissos -->
         <ListBox Items="{Binding Compromissos}">
             <ListBox.ItemTemplate>
                 <DataTemplate>
                     <StackPanel Orientation="Horizontal" Spacing="10">
-                        <TextBlock Text="{Binding Titulo}" />
-                        <Button Content="Remover" 
-                                Command="{Binding DataContext.RemoverCommand, RelativeSource={RelativeSource AncestorType=Window}}" />
+
+                        <TextBlock Text="{Binding Titulo}" Width="200"/>
+                        <TextBlock Text="{Binding Data, StringFormat='dd/MM/yyyy'}" Width="100"/>
+                        <Button Content="Remover" Command="{Binding DataContext.RemoverCommand, RelativeSource={RelativeSource AncestorType=Window}}" CommandParameter="{Binding}" />
+
                     </StackPanel>
                 </DataTemplate>
             </ListBox.ItemTemplate>

@@ -6,6 +6,9 @@
 /home/eduardo/Programacao/PortfolioWeb/ProjetoEmCsharp/AgendaEletronica/obj/Debug/net9.0/AgendaEletronica.AssemblyInfo.cs
 /home/eduardo/Programacao/PortfolioWeb/ProjetoEmCsharp/AgendaEletronica/obj/Debug/net9.0/AgendaEletronica.csproj.CoreCompileInputs.cache
 /home/eduardo/Programacao/PortfolioWeb/ProjetoEmCsharp/AgendaEletronica/obj/Debug/net9.0/AgendaEletronica.sourcelink.json
+/home/eduardo/Programacao/PortfolioWeb/ProjetoEmCsharp/AgendaEletronica/obj/Debug/net9.0/Avalonia/AgendaEletronica.dll
+/home/eduardo/Programacao/PortfolioWeb/ProjetoEmCsharp/AgendaEletronica/obj/Debug/net9.0/Avalonia/AgendaEletronica.pdb
+/home/eduardo/Programacao/PortfolioWeb/ProjetoEmCsharp/AgendaEletronica/obj/Debug/net9.0/refint/Avalonia/AgendaEletronica.dll
 /home/eduardo/Programacao/PortfolioWeb/ProjetoEmCsharp/AgendaEletronica/bin/Debug/net9.0/AgendaEletronica
 /home/eduardo/Programacao/PortfolioWeb/ProjetoEmCsharp/AgendaEletronica/bin/Debug/net9.0/AgendaEletronica.deps.json
 /home/eduardo/Programacao/PortfolioWeb/ProjetoEmCsharp/AgendaEletronica/bin/Debug/net9.0/AgendaEletronica.runtimeconfig.json
@@ -59,9 +62,9 @@
 /home/eduardo/Programacao/PortfolioWeb/ProjetoEmCsharp/AgendaEletronica/bin/Debug/net9.0/runtimes/win-arm64/native/libSkiaSharp.dll
 /home/eduardo/Programacao/PortfolioWeb/ProjetoEmCsharp/AgendaEletronica/bin/Debug/net9.0/runtimes/win-x64/native/libSkiaSharp.dll
 /home/eduardo/Programacao/PortfolioWeb/ProjetoEmCsharp/AgendaEletronica/bin/Debug/net9.0/runtimes/win-x86/native/libSkiaSharp.dll
-/home/eduardo/Programacao/PortfolioWeb/ProjetoEmCsharp/AgendaEletronica/obj/Debug/net9.0/Avalonia/AgendaEletronica.dll
-/home/eduardo/Programacao/PortfolioWeb/ProjetoEmCsharp/AgendaEletronica/obj/Debug/net9.0/Avalonia/AgendaEletronica.pdb
-/home/eduardo/Programacao/PortfolioWeb/ProjetoEmCsharp/AgendaEletronica/obj/Debug/net9.0/refint/Avalonia/AgendaEletronica.dll
 /home/eduardo/Programacao/PortfolioWeb/ProjetoEmCsharp/AgendaEletronica/obj/Debug/net9.0/AgendaEl.0B06B692.Up2Date
 /home/eduardo/Programacao/PortfolioWeb/ProjetoEmCsharp/AgendaEletronica/obj/Debug/net9.0/AgendaEletronica.genruntimeconfig.cache
 /home/eduardo/Programacao/PortfolioWeb/ProjetoEmCsharp/AgendaEletronica/obj/Debug/net9.0/ref/AgendaEletronica.dll
+/home/eduardo/Programacao/PortfolioWeb/ProjetoEmCsharp/AgendaEletronica/obj/Debug/net9.0/AgendaEletronica.dll
+/home/eduardo/Programacao/PortfolioWeb/ProjetoEmCsharp/AgendaEletronica/obj/Debug/net9.0/refint/AgendaEletronica.dll
+/home/eduardo/Programacao/PortfolioWeb/ProjetoEmCsharp/AgendaEletronica/obj/Debug/net9.0/AgendaEletronica.pdb

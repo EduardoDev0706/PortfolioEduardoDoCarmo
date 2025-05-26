@@ -1,3 +1,4 @@
+using AgendaEletronica.ViewModels;
 using Avalonia.Controls;
 using Avalonia.Markup.Xaml;
 
@@ -8,11 +9,7 @@ namespace AgendaEletronica.Views
         public MainWindow()
         {
             InitializeComponent();
-        }
-
-        private void InitializeComponent()
-        {
-            AvaloniaXamlLoader.Load(this);
+            DataContext = new MainWindowViewModel();
         }
     }
 }
