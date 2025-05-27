@@ -32,3 +32,9 @@ Permite adicionar, listar e remover compromissos com título, descrição e data
 - `Models/` — classes que representam dados (Compromisso).
 - `Data/` — serviço para carregar e salvar compromissos.
 - `Commands/` — implementação de comandos para a interface (RelayCommand).
+
+## Estrutura Visual
+
+![image](https://github.com/user-attachments/assets/122b281d-d838-4127-9ad0-fda985db3d55)
+
+
