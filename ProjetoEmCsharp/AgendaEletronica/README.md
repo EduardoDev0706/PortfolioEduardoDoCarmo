@@ -12,6 +12,7 @@ Permite adicionar, listar e remover compromissos com título, descrição e data
 - **MVVM** (Model-View-ViewModel) para arquitetura do projeto
 - **ObservableCollection** para gerenciamento dinâmico da lista de compromissos
 - **Comandos (ICommand)** para ações na interface
+- JSON para armazenar os dados
 
 ---
 
