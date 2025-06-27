@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "nmxTrLDycf1RkTvMfA7wP3yCCffGi5CgmCe+P6jEyOM=",
+  "Source": "MinhaPrimeiraApi",
+  "BasePath": "_content/MinhaPrimeiraApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
