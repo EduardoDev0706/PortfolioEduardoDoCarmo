@@ -19,4 +19,6 @@ Este é um projeto de portfólio pessoal desenvolvido com foco em simplicidade, 
 ## Projetos
 
 - Agenda Eletrônica com C# + Avalonia (Interface Gráfica)
-- Sistema Bibliotecário em Java
+- Sistema Bibliotecário em C#
+- Criação de uma API simples com Banco de Dados (SQLite)
+  
